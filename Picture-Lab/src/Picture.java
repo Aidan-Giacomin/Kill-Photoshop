@@ -120,7 +120,8 @@ public class Picture extends SimplePicture
 	    	for (Pixel pixelObj : rowArray)
 	    		{
 	    		pixelObj.setRed(pixelObj.getRed() % 3);
-	    		pixelObj.setBlue(pixelObj.getBlue() % 3);
+	    		pixelObj.setBlue
+	    		(pixelObj.getBlue() % 3);
 	    		pixelObj.setGreen(pixelObj.getGreen() % 3);
 	    		}
 	    	}
